@@ -1,27 +1,81 @@
-# MyApp
+# Angular Attribute Directive Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
+## Description
 
-## Development server
+This is an Angular project demonstrating the use of `ngClass` and `ngStyle` within an attribute directive. The project contains dynamically styled elements and a table that changes based on user interactions.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Uses `ngClass` to dynamically apply classes.
+- Uses `ngStyle` to apply inline styles dynamically.
+- Implements interactive UI components such as buttons, input fields, and checkboxes.
+- Displays a table with student data and progress bars.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Project Structure
 
-## Build
+```
+angular-project/
+│-- src/
+│   │-- app/
+│   │   │-- attribute-directive/
+│   │   │   │-- atb-dir/
+│   │   │   │   │-- atb-dir.component.html
+│   │   │   │   │-- atb-dir.component.ts
+│   │   │   │   │-- atb-dir.component.css
+│   │   │-- app.component.html
+│   │-- index.html
+│   │-- main.ts
+│-- angular.json
+│-- package.json
+│-- README.md
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/angular-attribute-directive.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd angular-attribute-directive
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Running the Project
 
-## Running end-to-end tests
+1. Start the development server:
+   ```sh
+   ng serve
+   ```
+2. Open your browser and navigate to `http://localhost:4200/`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Components Overview
 
-## Further help
+### `AtbDirComponent`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Contains four interactive boxes with dynamic class changes:
+  - Box 1: Changes background color using buttons.
+  - Box 2: Toggles background color with a button.
+  - Box 3: Compares two numbers and changes background color.
+  - Box 4: Uses a checkbox to toggle background color.
+- Displays a table with student data where:
+  - Background color of the status column changes based on student activity.
+  - A progress bar represents total marks.
+
+## Dependencies
+
+- Angular
+- Bootstrap
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+[Radheshayam Kumar]
+
