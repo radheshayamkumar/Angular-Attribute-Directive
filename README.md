@@ -4,6 +4,10 @@
 
 This is an Angular project demonstrating the use of `ngClass` and `ngStyle` within an attribute directive. The project contains dynamically styled elements and a table that changes based on user interactions.
 
+## Screenshot
+
+![Project Screenshot](assets/Screenshot%20(577).png)
+
 ## Features
 
 - Uses `ngClass` to dynamically apply classes.
