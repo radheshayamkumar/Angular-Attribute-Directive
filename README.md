@@ -6,7 +6,7 @@ This is an Angular project demonstrating the use of `ngClass` and `ngStyle` with
 
 ## Screenshot
 
-![Project Screenshot](assets/Screenshot%20(577).png)
+![Project Screenshot](src/assets/Screenshot%20(577).png)
 
 ## Features
 
